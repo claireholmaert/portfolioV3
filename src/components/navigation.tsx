@@ -1,4 +1,5 @@
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 // icons
 import {
@@ -47,10 +48,10 @@ export const Navigation = () => {
           const Icon = isActive ? item.activeIcon : item.icon;
           return (
             <li key={index}>
-              <Link to={item.href} className="flex items-center gap-x-1">
+              <HashLink to={item.href} className="flex items-center gap-x-1">
                 <Icon className="size-6" />
                 <span className="hidden lg:flex">{t(item.key)}</span>
-              </Link>
+              </HashLink>
             </li>
           );
         })}
