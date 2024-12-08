@@ -1,6 +1,6 @@
 // images
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import Image8 from "/svg/appwrite-icon.svg";
+import Image8 from "/svg/appwrite.svg";
 import Image9 from "/svg/docker-icon.svg";
 import Image3 from "/svg/nextjs-icon.svg";
 import Image7 from "/svg/postgresql.svg";
